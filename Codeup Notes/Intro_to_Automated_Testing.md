@@ -1,0 +1,20 @@
+Automated tests
+    - code that runs your code with various inputs and compares those inputs to the expected output
+    - unit tests - functions that test your functions
+        - super specific to one function
+        - isolated from the rest of the application
+        - specific to one function (one piece of functionality)
+    - end-to-end test (integration) 
+        - use selenium/webdriver/pupetteer to automate a browser
+        - write instructions to the browser automation tool
+            - go to https://codeup.com
+            - login w/ good credentials
+            - assert that I logged in appropriately
+            - attemp to login with bunk credentials 
+            - asserts that the login was unsuccessful
+        - testing an entire feature 
+        - test the entire application
+    - Test Driven Development (TDD)
+        - write the test before the code
+        - write one test for one function/feature at a time
+        - given that failing test, write just enough code to make the test pass
